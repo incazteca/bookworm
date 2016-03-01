@@ -24,6 +24,10 @@ Once bookworm is cloned you can run `go install` so that an executable command
 named `bookworm` will be in your `$GOPATH/bin` directory. Execute `bookworm` to
 start the server which will be available on port 8080.
 
+# Dependencies
+
+There are no additional dependencies. This project is good to GO!
+
 # Usage
 
 The bookworm server is available on port 8080.
