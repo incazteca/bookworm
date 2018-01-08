@@ -14,7 +14,7 @@ for getting started with Go.
 You can install Bookworm with the following command:
 `go get github.com/incazteca/bookworm`
 
-After running this command an executable command namded `bookworm will be in
+After running this command an executable command named `bookworm` will be in
 your `$GOPATH/bin` directory. Execute `bookworm` to start the server which
 will be available on port 8080.
 
