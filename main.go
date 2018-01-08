@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bitbucket.org/incazteca/bookworm/bookworm"
 	"encoding/json"
+	"github.com/incazteca/bookworm/bookworm"
 	"net/http"
 )
 
