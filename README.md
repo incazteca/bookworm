@@ -11,18 +11,12 @@ will remove "bluetooth", "blueberry", and "madeupblueword".
 Bookworm is go project, Please refer to the [golang installation guide](https://golang.org/doc/install)
 for getting started with Go.
 
-`go get` will not work due to the repo being in bitbucket. Instead execute the
-following commands:
+You can install Bookworm with the following command:
+`go get github.com/incazteca/bookworm`
 
-```
-mkdir -p $GOPATH/src/bitbucket.org/incazteca
-cd $GOPATH/src/bitbucket.org/incazteca
-git clone https://bitbucket.org/incazteca/bookworm
-```
-
-Once bookworm is cloned you can run `go install` so that an executable command
-named `bookworm` will be in your `$GOPATH/bin` directory. Execute `bookworm` to
-start the server which will be available on port 8080.
+After running this command an executable command namded `bookworm will be in
+your `$GOPATH/bin` directory. Execute `bookworm` to start the server which
+will be available on port 8080.
 
 # Dependencies
 
